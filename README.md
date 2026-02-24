@@ -10,6 +10,8 @@
 
 **A vibrant, playful NFT landing page with custom cursors, animated sand backgrounds, and an island-inspired aesthetic.**
 
+> 🕰️ *Originally built in 2018, fresh out of high school. Reimagined and rebuilt from the ground up in 2026.*
+
 [🌐 Live Site](https://dodonft.mrosadev.online)
 
 </div>
@@ -56,7 +58,7 @@
 
 ## 🚀 Getting Started
 
-No build step — single `index.html` file.
+No build step — pure static HTML/CSS/JS.
 
 ```bash
 # Just open it
@@ -72,7 +74,9 @@ npx serve .
 
 ```
 The-Dodo-NFT/
-├── 📄 index.html    # Full site — markup, styles, scripts
+├── 📄 index.html    # Page markup & structure
+├── 🎨 styles.css    # All styles & animations
+├── ⚡ script.js     # Canvas background, cursor, scroll effects
 └── 📖 README.md     # You're here
 ```
 
